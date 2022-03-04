@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+a:hover {
+  text-decoration: none;
+  transition: all ease-in-out 0.6s;
+}
+.homepage {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(66, 77, 141, 0.42),
+      rgba(49, 51, 36, 0.63)
+    ),
+    url(media/home.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} /*
+header nav {
+   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}*/
+.logo {
+  position: relative;
+  float: left;
+  font-size: 3.5vw;
+  padding-left: 1.2vw;
+  padding-top: 1vw;
+  transition: all 0.35s ease-in-out;
+}
+nav.sticky {
+  position: relative;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3.5px);
+  z-index: 999;
+}
+
+.logo a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: whitesmoke;
+  text-decoration: none;
+  letter-spacing: 0.25vw;
+}
+.logo span {
+  color: crimson;
+}
+.logo:hover {
+  padding-left: 2.5vw;
+  text-decoration: none;
+}
+.logo a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+header .navbar a {
+  margin-left: 2.8vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+  padding-top: 2vw;
+  letter-spacing: 0.2vw;
+  color: white;
+  text-decoration: none;
+  transition: all ease-in-out 0.5s;
+}
+header .navbar a:hover {
+  color: blanchedalmond;
+}
+.navbar {
+  margin-right: 1.5vw;
+  float: right;
+  vertical-align: middle;
+  padding-top: 1.1vw;
+}
+
+header .home {
+  text-align: center;
+  padding-top: 16vw;
+}
+header .home h1 {
+  color: whitesmoke;
+}
+header .home iframe {
+  position: relative;
+  padding-left: 16vw;
+  transform: scale(0.5);
+}
+.hire {
+  padding-top: 5vw;
+  padding-right: 2.5vw;
+}
+header .hire a {
+  font-size: 1.7vw;
+  font-weight: 700;
+  color: crimson;
+  background-color: whitesmoke;
+  padding: 1.5vw;
+  border-radius: 0.7vw;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  text-decoration: none;
+}
+.hire a:hover {
+  background-color: crimson;
+  color: antiquewhite;
+}
+
+table h1 {
+  color: wheat;
+  text-align: center;
+}
+table {
+  margin-top: 2vw;
+}
+table p {
+  position: relative;
+  color: whitesmoke;
+  left: 2vw;
+  font-size: 1.2vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills table td a {
+  font-size: 1.25vw;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 2vw;
+  padding: 0.8vw;
+  background: crimson;
+  color: whitesmoke;
+  align-items: center;
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  transition: all ease-in-out 0.45s;
+}
+.skills table td a:hover {
+  background: blanchedalmond;
+  color: crimson;
+  padding: 1vw;
+}
+table img {
+  padding: 8vw;
+}
+
+.skills,
+.contactform {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(66, 77, 141, 0.42),
+      rgba(49, 51, 36, 0.63)
+    ),
+    url(media/home.jpeg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+.skills .the-content {
+  position: relative;
+  width: 100%;
+  height: 30vw;
+  display: inline-flex;
+  margin-bottom: 11vw;
+}
+.skills .the-content .card {
+  width: 100%;
+  height: 100%;
+  margin: 1vw;
+  transition: transform 3s;
+  transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 3s;
+  position: relative;
+  top: 8vw;
+  border-radius: 2vw;
+}
+
+.skills .the-content .card:hover {
+  transform: rotateY(180deg);
+}
+
+.skills .the-content .card .theCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 0.3vw 0.6vw,
+    rgba(0, 0, 0, 0.32) 0 0.3vw 0.6vw;
+}
+
+.skills .the-content .card .front {
+  display: inline-flex;
+  background: blanchedalmond;
+  box-shadow: crimson 0 0.3vw 0.6vw, crimson 0 0.3vw 0.6vw;
+}
+
+.skills .the-content .card .back {
+  color: black;
+  background: wheat;
+  transform: rotateY(180deg);
+  box-shadow: rgba(0, 0, 0, 0.36) 0 0.3vw 0.6vw,
+    rgba(0, 0, 0, 0.404) 0 0.3vw 0.6vw;
+}
+
+.the-content .card a {
+  font-size: 1.5vw;
+  background: crimson;
+  color: blanchedalmond;
+  box-shadow: black 0.24vw 0.24vw 0.32vw;
+  border-radius: 0.5vw;
+  padding: 0.5vw;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
+.the-content .card a:hover {
+  background: blanchedalmond;
+  color: crimson;
+}
+.skills .the-content .card .back p {
+  padding: 2vw;
+  font-size: 1.2vw;
+}
+.skills .the-content .card .back h2 {
+  text-align: center;
+  font-size: 2.3vw;
+}
+.skills .the-content .card .back .seemore {
+  text-align: center;
+}
+.skills .the-content .card .front img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.skills .work {
+  margin-top: 10vw;
+}
+
+.contactform form {
+  padding: 20vw 25vw 20vw 25vw;
+}
+.contactform input[type="text"]:focus,
+.contactform input[type="email"]:focus {
+  width: 75%;
+}
+.theInput {
+  border: none;
+  width: 50%;
+  padding: 0.8vw;
+  background-color: none;
+  border-bottom: 0.15vw solid whitesmoke;
+  transition: width 0.35s ease-in-out;
+  background-color: rgba(0, 0, 0, 0);
+}
+.theInput:focus {
+  border: none;
+  border-bottom: 0.1vw solid black;
+  border-radius: 0.3vw;
+  padding: 1vw;
+  background: black;
+  color: crimson;
+  box-shadow: rgba(255, 255, 255, 0.26) 0px 10px 20px,
+    rgba(255, 255, 255, 0.3) 0px 6px 6px;
+}
+
+.contactform label,
+.contactform form p {
+  font-size: 1.3vw;
+  font-family: Arial;
+}
+.contactform form p {
+  text-align: center;
+  font-size: 1.5vw;
+}
+.contactform input[type="radio"] {
+  margin-left: 2vw;
+}
+.contactform form button {
+  width: 31.5vw;
+  font-size: 1.3vw;
+  font-weight: 700;
+  padding: 1.1vw;
+  border-radius: 1.2vw;
+  background-color: crimson;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all ease-in-out 0.45s;
+}
+.contactform form button:hover {
+  background-color: whitesmoke;
+  color: crimson;
+  padding: 1.3;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 20px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
+}
+
+footer {
+  background-color: black;
+  color: whitesmoke;
+}
+footer p span {
+  color: whitesmoke;
+  background: rgb(77, 73, 73);
+}
+footer table p {
+  font-size: 1.2vw;
+}
+footer table a {
+  margin-left: 2.5vw;
+  font-size: 2vw;
+  color: crimson;
+}
+footer table a:hover {
+  text-decoration: none;
+  color: antiquewhite;
+}
+footer table .con a:hover {
+  color: crimson;
+}
+footer form {
+  position: relative;
+  padding: 2vw 0 2vw 0;
+}
+input,
+textarea,
+select {
+  width: 90%;
+  background: blanchedalmond;
+  padding: 0.7vw;
+  border-radius: 0.3vw;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background: black;
+  color: crimson;
+  padding: 1.1vw;
+  box-shadow: rgba(255, 0, 0, 0.26) 0px 10px 20px,
+    rgba(255, 0, 0, 0.3) 0px 6px 6px;
+}
+footer form .input {
+  margin-top: 0.6vw;
+}
+footer form a {
+  font-size: 1.3vw;
+  margin-top: 2vw;
+  font-weight: 00;
+  color: crimson;
+  background-color: whitesmoke;
+  padding: 1.2vw;
+  border-radius: 0.7vw;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  text-decoration: none;
+}
+footer form a:hover {
+  background-color: crimson;
+  color: whitesmoke;
+  padding: 1.35;
+}
+form .sub {
+  padding-top: 1.3vw;
+  position: relative;
+  right: 2vw;
+}
+footer form a:hover {
+  color: whitesmoke;
+}
+footer h2 {
+  position: relative;
+  left: 1vw;
+  font-family: sans-serif;
+}
+footer table p {
+  position: relative;
+  left: 2vw;
+  font-size: 1.1vw;
+  font-family: arial;
+}
+footer .bottom-footer {
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  color: antiquewhite;
+  text-align: center;
+  position: absolute;
+}
+.bottom-footer a {
+  color: crimson;
+}
