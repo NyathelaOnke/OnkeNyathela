@@ -15,17 +15,22 @@ a:hover {
   text-decoration: none;
   transition: all ease-in-out 0.6s;
 }
+::placeholder {
+  color: red;
+  font-size: 2vw;
+}
 .homepage {
   background-image: linear-gradient(
       to bottom,
-      rgba(66, 77, 141, 0.42),
-      rgba(49, 51, 36, 0.63)
+      rgba(66, 77, 141, 0.52),
+      rgba(49, 51, 36, 0.73)
     ),
     url(media/home.jpeg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  backdrop-filter: blur(3.5px);
 } /*
 header nav {
    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
@@ -91,6 +96,7 @@ header .home {
 }
 header .home h1 {
   color: whitesmoke;
+  font-size: 3vw;
 }
 header .home iframe {
   position: relative;
@@ -161,8 +167,8 @@ table img {
 .contactform {
   background-image: linear-gradient(
       to bottom,
-      rgba(66, 77, 141, 0.42),
-      rgba(49, 51, 36, 0.63)
+      rgba(66, 77, 141, 0.52),
+      rgba(49, 51, 36, 0.73)
     ),
     url(media/home.jpeg);
 
@@ -170,6 +176,12 @@ table img {
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
+}
+.aboutpage table {
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.aboutpage .theContent h1 {
+  font-size: 2.7vw;
 }
 .skills .the-content {
   position: relative;
@@ -284,6 +296,9 @@ table img {
     rgba(255, 255, 255, 0.3) 0px 6px 6px;
 }
 
+.contactform form {
+  background-color: rgba(0, 0, 0, 0.65);
+}
 .contactform label,
 .contactform form p {
   font-size: 1.3vw;
@@ -294,7 +309,7 @@ table img {
   font-size: 1.5vw;
 }
 .contactform input[type="radio"] {
-  margin-left: 2vw;
+  width: 5%;
 }
 .contactform form button {
   width: 31.5vw;
@@ -318,33 +333,44 @@ footer {
   background-color: black;
   color: whitesmoke;
 }
+footer .top-footer {
+  display: inline-flex;
+}
+footer .about-info {
+  width: 50%;
+  padding: 1vw;
+  padding-top: 3vw;
+}
+footer .the-form {
+  width: 50%;
+}
 footer p span {
   color: whitesmoke;
   background: rgb(77, 73, 73);
 }
-footer table p {
+footer .top-footer p {
   font-size: 1.2vw;
 }
-footer table a {
+footer .top-footer a {
   margin-left: 2.5vw;
   font-size: 2vw;
   color: crimson;
 }
-footer table a:hover {
+footer .top-footer a:hover {
   text-decoration: none;
   color: antiquewhite;
 }
-footer table .con a:hover {
+footer .top-footer .con a:hover {
   color: crimson;
 }
 footer form {
-  position: relative;
   padding: 2vw 0 2vw 0;
+  margin-left: 3.5vw;
 }
 input,
 textarea,
 select {
-  width: 90%;
+  width: 85%;
   background: blanchedalmond;
   padding: 0.7vw;
   border-radius: 0.3vw;
@@ -359,6 +385,7 @@ select:focus {
   box-shadow: rgba(255, 0, 0, 0.26) 0px 10px 20px,
     rgba(255, 0, 0, 0.3) 0px 6px 6px;
 }
+
 footer form .input {
   margin-top: 0.6vw;
 }
@@ -393,6 +420,7 @@ footer form a:hover {
 footer h2 {
   position: relative;
   left: 1vw;
+  font-size: 2.6vw;
   font-family: sans-serif;
 }
 footer table p {
@@ -410,4 +438,45 @@ footer .bottom-footer {
 }
 .bottom-footer a {
   color: crimson;
+}
+
+@media screen and (max-width: 600px) {
+  footer .top-footer {
+    display: list-item;
+  }
+  footer .top-footer .about-info {
+    width: 100%;
+    font-size: 3vw;
+  }
+  footer .top-footer .about-info h2,
+  .home h1,
+  .aboutpage .theContent h1 {
+    font-size: 4.5vw;
+  }
+  footer .top-footer .about-info p {
+    font-size: 2.5vw;
+  }
+  footer .the-form {
+    width: 100%;
+  }
+  .contactform label {
+    font-size: 2vw;
+  }
+  footer .bottom-footer {
+    font-size: 2vw;
+  }
+  header .home iframe {
+    padding-left: 36vw;
+    transform: scale(0.5);
+  }
+
+  header .hire a {
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 2vw;
+    border-radius: 0.7vw;
+  }
+  .aboutpage .theContent p {
+    font-size: 1.5vw;
+  }
 }
