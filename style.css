@@ -17,7 +17,7 @@ a:hover {
 }
 ::placeholder {
   color: red;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .homepage {
   background-image: linear-gradient(
@@ -441,6 +441,10 @@ footer .bottom-footer {
 }
 
 @media screen and (max-width: 600px) {
+  placeholder {
+  color: red;
+  font-size: 2vw;
+  }
   footer .top-footer {
     display: list-item;
   }
