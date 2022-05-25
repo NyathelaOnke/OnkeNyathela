@@ -441,9 +441,8 @@ footer .bottom-footer {
 }
 
 @media screen and (max-width: 600px) {
-  placeholder {
-  color: red;
-  font-size: 2vw;
+  ::placeholder {
+  font-size: 2.3vw;
   }
   footer .top-footer {
     display: list-item;
@@ -460,6 +459,9 @@ footer .bottom-footer {
   footer .top-footer .about-info p {
     font-size: 2.5vw;
   }
+  footer .top-footer a {
+    font-size: 2.4vw;
+  }
   footer .the-form {
     width: 100%;
   }
@@ -475,7 +477,7 @@ footer .bottom-footer {
   }
 
   header .hire a {
-    font-size: 2vw;
+    font-size: 2.2vw;
     font-weight: 700;
     padding: 2vw;
     border-radius: 0.7vw;
