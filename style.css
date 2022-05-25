@@ -457,7 +457,7 @@ footer .bottom-footer {
     font-size: 2.5vw;
   }
   
-  footer .top-footer .con p {
+  footer .top-footer .con {
     font-size: 2.3vw;
   }
   footer .top-footer a {
@@ -518,4 +518,10 @@ footer .bottom-footer {
   .mywork {
     height: 150vh;
   }
+.skills .the-content .card .back p {
+  font-size: 1.2vw;
+}
+.skills .the-content .card .back h2 {
+  font-size: 2.3vw;
+}
 }
