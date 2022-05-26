@@ -437,9 +437,9 @@ footer .bottom-footer {
   color: crimson;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 535px) {
   ::placeholder {
-  font-size: 2.25vw;
+    font-size: 2.25vw;
   }
   footer .top-footer {
     display: list-item;
@@ -456,7 +456,7 @@ footer .bottom-footer {
   footer .top-footer p {
     font-size: 2.5vw;
   }
-  
+
   footer .top-footer .con {
     font-size: 2.3vw;
   }
@@ -495,16 +495,13 @@ footer .bottom-footer {
   }
   .the-content .card a {
     position: relative;
-    bottom: 7vw;
-    font-size: 1.5vw;
+    bottom: 3vw;
+    font-size: 3vw;
   }
   .skills .the-content {
     width: 100%;
     display: inline-block;
     margin-top: 14vw;
-  }
-  .skills .two {
-    margin-top: 73vw;
   }
   .skills .the-content .card {
     width: 100%;
@@ -515,13 +512,21 @@ footer .bottom-footer {
     margin-right: 0;
     margin-left: 0;
   }
+  .skills .two {
+    margin-top: 95vw;
+  }
   .mywork {
     height: 150vh;
   }
-.skills .the-content .card .back p {
-  font-size: 1.2vw;
+  .skills .the-content .card .back p {
+    font-size: 3vw;
+  }
+  .skills .the-content .card .back h2 {
+    font-size: 5vw;
+  }
 }
-.skills .the-content .card .back h2 {
-  font-size: 2.3vw;
-}
+@media screen and (max-width: 370px) {
+  .skills .two {
+    margin-top: 100vw;
+  }
 }
