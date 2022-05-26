@@ -529,14 +529,24 @@ footer .bottom-footer {
   .mywork {
     height: 120vh;
   }
+  .skills .two {
+    margin-top: 63vw;
+  }
 }
 @media screen and (max-width: 400px){
   .mywork {
     height: 110vh;
   }
+  
+  .skills .two {
+    margin-top: 53vw;
+  }
 }
 @media screen and (max-width: 300px){
   .mywork {
     height: 100vh;
+  }
+  .skills .two {
+    margin-top: 43vw;
   }
 }
