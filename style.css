@@ -530,13 +530,3 @@ footer .bottom-footer {
     margin-top: 93vw;
   }
 }
-@media screen and (max-width: 400px){
-  .skills .two {
-    margin-top: 103vw;
-  }
-}
-@media screen and (max-width: 300px){
-  .skills .two {
-    margin-top: 113vw;
-  }
-}
