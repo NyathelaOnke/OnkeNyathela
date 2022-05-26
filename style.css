@@ -525,3 +525,8 @@ footer .bottom-footer {
   font-size: 2.3vw;
 }
 }
+@media screen and (max-width: 600px){
+  .mywork {
+    height: 120vh;
+  }
+}
