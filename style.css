@@ -525,8 +525,18 @@ footer .bottom-footer {
   font-size: 2.3vw;
 }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
   .mywork {
     height: 120vh;
+  }
+}
+@media screen and (max-width: 400px){
+  .mywork {
+    height: 110vh;
+  }
+}
+@media screen and (max-width: 300px){
+  .mywork {
+    height: 100vh;
   }
 }
