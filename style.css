@@ -476,9 +476,9 @@ footer .bottom-footer {
     padding-left: 36vw;
     transform: scale(0.5);
   }
-  
   .skills table td a{
-    margin-bottom: 9vw;
+    color: yellow;
+    margin-bottom: 15vw;
   }
   header .hire a {
     font-size: 2.2vw;
