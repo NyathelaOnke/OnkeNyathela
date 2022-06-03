@@ -270,7 +270,7 @@ table img {
 }
 
 .contactform form {
-  padding: 20vw 25vw 20vw 25vw;
+  padding: 18vw 25vw;
 }
 .contactform input[type="text"]:focus,
 .contactform input[type="email"]:focus {
@@ -476,7 +476,10 @@ footer .bottom-footer {
     padding-left: 36vw;
     transform: scale(0.5);
   }
-
+  
+  .skills table td a{
+    margin-bottom: 9vw;
+  }
   header .hire a {
     font-size: 2.2vw;
     font-weight: 700;
