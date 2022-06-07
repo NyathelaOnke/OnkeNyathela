@@ -441,6 +441,9 @@ footer .bottom-footer {
   ::placeholder {
     font-size: 2.25vw;
   }
+  header .navbar a{
+    font-size: 2.5vw;
+  }
   footer .top-footer {
     display: list-item;
   }
@@ -451,10 +454,10 @@ footer .bottom-footer {
   footer .top-footer .about-info h2,
   .home h1,
   .aboutpage .theContent h1 {
-    font-size: 4.5vw;
+    font-size: 5vw;
   }
   footer .top-footer p {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 
   footer .top-footer .con {
