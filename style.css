@@ -442,14 +442,14 @@ footer .bottom-footer {
     font-size: 2.25vw;
   }
   header .navbar a{
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
   footer .top-footer {
     display: list-item;
   }
   footer .top-footer .about-info {
     width: 100%;
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
   footer .top-footer .about-info h2,
   .home h1,
@@ -461,7 +461,7 @@ footer .bottom-footer {
   }
 
   footer .top-footer .con {
-    font-size: 2.3vw;
+    font-size: 2.6vw;
   }
   footer .top-footer a {
     font-size: 3vw;
