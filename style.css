@@ -438,11 +438,14 @@ footer .bottom-footer {
 }
 
 @media screen and (max-width: 535px) {
+.navbar {
+  padding-top: 1.1vw;
+}
   ::placeholder {
     font-size: 2.25vw;
   }
   header .navbar a{
-    font-size: 2vw;
+    font-size: 2.7vw;
   }
   footer .top-footer {
     display: list-item;
