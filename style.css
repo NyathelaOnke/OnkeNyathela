@@ -354,6 +354,10 @@ footer p span {
 footer .top-footer p {
   font-size: 1.2vw;
 }
+footer .top-footer con p,
+footer .about-footer con p{
+  font-size: 1.5vw;
+}
 footer .about-footer a{
   margin-left: 3vw;
   font-size: 2vw;
@@ -477,9 +481,9 @@ footer .bottom-footer {
   footer .about-footer p {
     font-size: 3.5vw;
   }
-  footer .top-footer .con,
+  footer .top-footer .con p,
   footer .about-footer .con p {
-    font-size: 2.6vw;
+    font-size: 2.2vw;
   }
   footer .top-footer a,
   footer .about-footer a {
