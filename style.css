@@ -475,11 +475,19 @@ footer .bottom-footer {
   footer .top-footer p {
     font-size: 3.5vw;
   }
-
+  footer .about-footer p {
+    font-size: 3.5vw;
+  }
   footer .top-footer .con {
     font-size: 2.6vw;
   }
+  footer .about-footer .con {
+    font-size: 2.6vw;
+  }
   footer .top-footer a {
+    font-size: 3vw;
+  }
+  footer .about-footer a{
     font-size: 3vw;
   }
   footer .the-form {
