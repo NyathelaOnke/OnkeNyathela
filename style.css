@@ -336,6 +336,9 @@ footer {
 footer .top-footer {
   display: inline-flex;
 }
+footer .about-footer {
+  display: list-item;
+}
 footer .about-info {
   width: 50%;
   padding: 1vw;
