@@ -136,7 +136,7 @@ table {
 table p {
   position: relative;
   color: whitesmoke;
-  left: 2vw;
+  right: 2vw;
   font-size: 1.2vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -160,7 +160,7 @@ table p {
   padding: 1vw;
 }
 table img {
-  padding: 8vw;
+  padding: 6vw;
 }
 
 .skills,
