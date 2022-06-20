@@ -354,14 +354,21 @@ footer p span {
 footer .top-footer p {
   font-size: 1.2vw;
 }
-footer .top-footer a, 
-about-footer a {
+footer .about-footer a{
+  margin-left: 3vw;
+  font-size: 2vw;
+  color: crimson;
+}
+footer about-footer a:hover{
+  text-decoration: none;
+  color: antiquewhite;
+}
+footer .top-footer a{
   margin-left: 2.5vw;
   font-size: 2vw;
   color: crimson;
 }
-footer .top-footer a:hover,
-about-footer a:hover{
+footer .top-footer a:hover{
   text-decoration: none;
   color: antiquewhite;
 }
