@@ -281,6 +281,7 @@ table img {
   border: none;
   width: 50%;
   padding: 0.8vw;
+  color: whitesmoke;
   background-color: none;
   border-bottom: 0.15vw solid whitesmoke;
   transition: width 0.35s ease-in-out;
