@@ -421,7 +421,6 @@ footer form button {
 footer form button:hover {
   background-color: crimson;
   color: whitesmoke;
-  padding: 1.35;
 }
 form .sub {
   padding-top: 1.3vw;
