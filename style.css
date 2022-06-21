@@ -403,7 +403,7 @@ select:focus {
 footer form .input {
   margin-top: 0.6vw;
 }
-footer form a {
+footer form button {
   font-size: 1.3vw;
   margin-top: 2vw;
   font-weight: 600;
@@ -418,7 +418,7 @@ footer form a {
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   text-decoration: none;
 }
-footer form a:hover {
+footer form button:hover {
   background-color: crimson;
   color: whitesmoke;
   padding: 1.35;
