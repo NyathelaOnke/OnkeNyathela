@@ -419,12 +419,11 @@ footer form button {
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   text-decoration: none;*/
   width: 3.5vw;
-  border-radius: 1.2vw;
   background-color: crimson;
   color: whitesmoke;
   cursor: pointer;
   transition: all ease-in-out 0.45s;
-  font-size: 1.3vw;
+  font-size: 1.6vw;
   font-weight: 600;
   color: crimson;
   background-color: whitesmoke;
@@ -445,9 +444,6 @@ form .sub {
   padding-top: 1.3vw;
   position: relative;
   right: 2vw;
-}
-footer form a:hover {
-  color: whitesmoke;
 }
 footer h2 {
   position: relative;
