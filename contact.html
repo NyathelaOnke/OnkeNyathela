@@ -57,7 +57,7 @@
                 <label for="number">Your contact number:</label> <br>
                 <input type="number" class="theInput" name="number" placeholder="0123456789" required><br><br><br>
                 <p>Reasons for contact</p><br>
-                <input type="radio" id="colab" name="reason" >  
+                <input type="radio" id="colab" name="reason" required>  
                 <label for="colab">Collaboration on a project</label>
                 <input type="radio" id="job" name="reason" >
                 <label for="job">Job offer or interview</label>
@@ -68,7 +68,7 @@
                 <label for="moreInfo">Any extra details:</label><br>
                 <textarea class="theInput" style="height: 15vw; width: 30vw;" type="text" name="moreInfo" placeholder="Any extra information you want to submit"></textarea><br><br>
                 <!-- your other form fields go here -->
-                <button type="submit"><i class="fas fa-envelope"></i>Send</button>
+                <button type="submit"><i class="fas fa-envelope"></i> Send</button>
             </form>
         </div>
 
@@ -94,10 +94,10 @@
                     <div class="the-form">     
                 <form action="https://formspree.io/f/mbjwowpa" method="POST" width="100%" action="homepage.html" method="post">
                     <div class="input email">
-                        <input type="email" name="email" class="the-text contact" placeholder="Your email address...">
+                        <input type="email" name="email" class="the-text contact" placeholder="Your email address..." required>
                     </div>
                     <div class="input reasons">
-                        <select id="Services" name="Services">
+                        <select id="Services" name="Services" required>
                             <option value="reasons">Select reasons for contacting</option>
                             <option value="interview">Job interview</option>
                             <option value="colab">Collaborate on a project</option>
@@ -105,11 +105,10 @@
                         </select>
                     </div>
                     <div class="input message">
-                        <textarea name="message" rows="7" class="the-text contactMsg" placeholder="Your message..."></textarea>
+                        <textarea name="message" rows="7" class="the-text contactMsg" placeholder="Your message..." required></textarea>
                     </div>
                      <button type="submit">
-                        <i class="fas fa-envelope"></i>
-                        Send
+                        <i class="fas fa-envelope"></i> Send
                     <button>
                 </form>
               </div>
