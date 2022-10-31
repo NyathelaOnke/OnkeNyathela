@@ -164,8 +164,7 @@ table img {
   padding: 6vw;
 }
 
-.skills,
-.contactform {
+.skills {
   background-image: linear-gradient(
       to bottom,
       rgba(66, 77, 141, 0.52),
@@ -270,9 +269,6 @@ table img {
   margin-top: 10vw;
 }
 
-.contactform form {
-  padding: 18vw 25vw;
-}
 .contactform input[type="text"]:focus,
 .contactform input[type="email"]:focus {
   width: 75%;
