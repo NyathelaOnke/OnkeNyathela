@@ -270,7 +270,8 @@ table img {
 }
 
 .contactform{
-  margin-bottom: 18vw;
+  position: relative;
+  bottom: 18vw;
 }
 
 .contactform form{
