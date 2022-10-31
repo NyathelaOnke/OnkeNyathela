@@ -271,7 +271,7 @@ table img {
 
 .contactform{
   position: relative;
-  bottom: 0;
+  bottom: 20vw;
 }
 
 .contactform form{
