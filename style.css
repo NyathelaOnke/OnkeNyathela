@@ -268,7 +268,10 @@ table img {
 .skills .work {
   margin-top: 10vw;
 }
-
+.contactform form{
+  padding: 18vw 14vw;
+  margin-bottom: 10vw;
+}
 .contactform input[type="text"]:focus,
 .contactform input[type="email"]:focus {
   width: 75%;
