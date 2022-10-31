@@ -163,7 +163,6 @@ table p {
 table img {
   padding: 6vw;
 }
-
 .skills {
   background-image: linear-gradient(
       to bottom,
@@ -267,6 +266,9 @@ table img {
 }
 .skills .work {
   margin-top: 10vw;
+}
+.contactheader{
+  width: 6vw;
 }
 .contactform form{
   padding: 18vw 14vw;
