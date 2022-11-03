@@ -102,6 +102,7 @@ header .home iframe {
   position: relative;
   padding-left: 16vw;
   transform: scale(0.5);
+  border: none;
 }
 .hire {
   padding-top: 5vw;
