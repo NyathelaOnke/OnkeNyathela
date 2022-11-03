@@ -126,7 +126,13 @@ header .hire a {
   background-color: crimson;
   color: antiquewhite;
 }
-
+.aboutpage table{
+  width: 100%;
+  height: 40vw;
+}
+.aboutpage table .td1{
+  width: 45%;
+}
 table h1 {
   color: wheat;
   text-align: center;
@@ -163,6 +169,7 @@ table p {
 }
 table img {
   padding: 6vw;
+  width: 100%;
 }
 .skills {
   background-image: linear-gradient(
@@ -182,6 +189,9 @@ table img {
 }
 .aboutpage .theContent h1 {
   font-size: 2.7vw;
+}
+.aboutpage .theContent{
+  width: 50;
 }
 .skills .the-content {
   position: relative;
@@ -335,6 +345,7 @@ table img {
 footer {
   background-color: black;
   color: whitesmoke;
+  width: 100%;
 }
 footer .top-footer {
   display: inline-flex;
