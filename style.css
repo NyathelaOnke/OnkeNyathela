@@ -16,7 +16,7 @@ a:hover {
   transition: all ease-in-out 0.6s;
 }
 ::placeholder {
-  color: crimson;
+  color: blanchedalmond;
   font-size: 1.5vw;
 }
 .homepage {
@@ -60,7 +60,7 @@ nav.sticky {
   letter-spacing: 0.25vw;
 }
 .logo span {
-  color: crimson;
+  color: blanchedalmond;
 }
 .logo:hover {
   padding-left: 2.5vw;
@@ -111,7 +111,7 @@ header .home iframe {
 header .hire a {
   font-size: 1.7vw;
   font-weight: 700;
-  color: crimson;
+  color: blanchedalmond;
   background-color: whitesmoke;
   padding: 1.5vw;
   border-radius: 0.7vw;
@@ -123,7 +123,7 @@ header .hire a {
   text-decoration: none;
 }
 .hire a:hover {
-  background-color: crimson;
+  background-color: blanchedalmond;
   color: antiquewhite;
 }
 .aboutpage table{
@@ -154,7 +154,7 @@ table p {
   text-decoration: none;
   margin-right: 2vw;
   padding: 0.8vw;
-  background: crimson;
+  background: blanchedalmond;
   color: whitesmoke;
   align-items: center;
   border: none;
@@ -304,7 +304,7 @@ table img {
   border-radius: 0.3vw;
   padding: 1vw;
   background: black;
-  color: crimson;
+  color: blanchedalmond;
   box-shadow: rgba(255, 255, 255, 0.26) 0px 10px 20px,
     rgba(255, 255, 255, 0.3) 0px 6px 6px;
 }
@@ -330,14 +330,14 @@ table img {
   font-weight: 700;
   padding: 1.1vw;
   border-radius: 1.2vw;
-  background-color: crimson;
+  background-color: blanchedalmond;
   color: whitesmoke;
   cursor: pointer;
   transition: all ease-in-out 0.45s;
 }
 .contactform form button:hover {
   background-color: whitesmoke;
-  color: crimson;
+  color: blanchedalmond;
   padding: 1.3;
   box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 20px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
 }
@@ -375,7 +375,7 @@ footer .about-footer con p{
 footer .about-footer a{
   margin-left: 3vw;
   font-size: 2vw;
-  color: crimson;
+  color: blanchedalmond;
 }
 footer .about-footer a:hover{
   text-decoration: none;
@@ -384,7 +384,7 @@ footer .about-footer a:hover{
 footer .top-footer a{
   margin-left: 2.5vw;
   font-size: 2vw;
-  color: crimson;
+  color: blanchedalmond;
 }
 footer .top-footer a:hover{
   text-decoration: none;
@@ -407,7 +407,7 @@ input:focus,
 textarea:focus,
 select:focus {
   background: black;
-  color: crimson;
+  color: blanchedalmond;
   padding: 1.1vw;
   box-shadow: rgba(255, 0, 0, 0.26) 0px 10px 20px,
     rgba(255, 0, 0, 0.3) 0px 6px 6px;
@@ -431,13 +431,13 @@ footer form button {
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   text-decoration: none;*/
-  background-color: crimson;
+  background-color: blanchedalmond;
   color: whitesmoke;
   cursor: pointer;
   transition: all ease-in-out 0.45s;
   font-size: 1.6vw;
   font-weight: 600;
-  color: crimson;
+  color: blanchedalmond;
   background-color: whitesmoke;
   padding: 1.2vw;
   border-radius: 0.7vw;
@@ -449,7 +449,7 @@ footer form button {
   text-decoration: none;
 }
 footer form button:hover {
-  background-color: crimson;
+  background-color: blanchedalmond;
   color: whitesmoke;
 }
 form .sub {
@@ -477,7 +477,7 @@ footer .bottom-footer {
   position: absolute;
 }
 .bottom-footer a {
-  color: crimson;
+  color: blanchedalmond;
 }
 
 @media screen and (max-width: 535px) {
