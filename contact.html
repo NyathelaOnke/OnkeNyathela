@@ -57,13 +57,12 @@
                 <input type="email" class="theInput" name="email" id="email" placeholder="johndoe@gnail.com" required><br><br><br>
                 <label for="number">Your contact number:</label> <br>
                 <input type="number" class="theInput" name="number" id="number" placeholder="0123456789" required><br><br><br>
-                <p>Reasons for contact</p><br>
-                <input type="radio" id="colab" name="reason" required>  
-                <label for="colab">Collaboration on a project</label>
-                <input type="radio" id="job" name="reason" >
-                <label for="job">Job offer or interview</label>
-                <input type="radio" id="website" name="reason">
-                <label for="website">Want a website</label> <br><br><br>
+                <select id="Services" name="Services" class="theInput" required>
+                  <option value="reasons">Select reasons for contacting</option>
+                  <option value="interview">Job interview</option>
+                  <option value="colab">Collaborate on a project</option>
+                  <option value="website">Website enquiry</option>
+                </select> <br> <br> <br>
                 <label for="date" >Date expecting reply by (latest)</label><br>
                 <input type="date" class="theInput" name="date" id="date" required><br><br><br>
                 <label for="moreInfo">Any extra details:</label><br>

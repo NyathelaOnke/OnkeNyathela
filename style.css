@@ -393,8 +393,7 @@ footer form {
   margin-left: 3.5vw;
 }
 input,
-textarea,
-select {
+textarea {
   width: 85%;
   background: blanchedalmond;
   padding: 0.7vw;
@@ -402,8 +401,7 @@ select {
 }
 
 input:focus,
-textarea:focus,
-select:focus {
+textarea:focus {
   background: black;
   color: blanchedalmond;
   padding: 1.1vw;
