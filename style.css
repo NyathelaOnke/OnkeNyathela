@@ -16,7 +16,7 @@ a:hover {
   transition: all ease-in-out 0.6s;
 }
 ::placeholder {
-  color: blanchedalmond;
+  color: whitesmoke;
   font-size: 1.5vw;
 }
 .homepage {
@@ -31,10 +31,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(3.5px);
-} /*
-header nav {
-   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-}*/
+} 
 .logo {
   position: relative;
   float: left;
@@ -111,8 +108,8 @@ header .home iframe {
 header .hire a {
   font-size: 1.7vw;
   font-weight: 700;
-  color: blanchedalmond;
-  background-color: whitesmoke;
+  background-color: black;
+  color: antiquewhite;
   padding: 1.5vw;
   border-radius: 0.7vw;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
@@ -123,8 +120,8 @@ header .hire a {
   text-decoration: none;
 }
 .hire a:hover {
-  background-color: blanchedalmond;
-  color: antiquewhite;
+  color: black;
+  background-color: whitesmoke;
 }
 .aboutpage table{
   width: 100%;
@@ -154,8 +151,8 @@ table p {
   text-decoration: none;
   margin-right: 2vw;
   padding: 0.8vw;
-  background: blanchedalmond;
-  color: whitesmoke;
+  background-color: black;
+  color: antiquewhite;
   align-items: center;
   border: none;
   border-radius: 0.5vw;
@@ -163,8 +160,8 @@ table p {
   transition: all ease-in-out 0.45s;
 }
 .skills table td a:hover {
-  background: blanchedalmond;
-  color: crimson;
+  color: black;
+  background-color: whitesmoke;
   padding: 1vw;
 }
 table img {
@@ -330,16 +327,17 @@ table img {
   font-weight: 700;
   padding: 1.1vw;
   border-radius: 1.2vw;
-  background-color: blanchedalmond;
+  background-color: black;
   color: whitesmoke;
   cursor: pointer;
   transition: all ease-in-out 0.45s;
 }
 .contactform form button:hover {
   background-color: whitesmoke;
-  color: blanchedalmond;
+  color: black;
   padding: 1.3;
-  box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 20px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
+  box-shadow: rgba(255, 255, 255, 0.26) 0px 10px 20px,
+    rgba(255, 255, 255, 0.3) 0px 6px 6px;
 }
 
 footer {
@@ -347,16 +345,16 @@ footer {
   color: whitesmoke;
   width: 100%;
 }
-footer .top-footer {
+footer .bottom-footer {
   display: inline-flex;
 }
 footer .about-footer {
   display: list-item;
 }
 footer .about-info {
-  width: 50%;
+  width: 100%;
   padding: 1vw;
-  padding-top: 3vw;
+  padding-top: 2.5vw;
 }
 footer .the-form {
   width: 50%;
@@ -379,7 +377,7 @@ footer .about-footer a{
 }
 footer .about-footer a:hover{
   text-decoration: none;
-  color: antiquewhite;
+  color: chocolate;
 }
 footer .top-footer a{
   margin-left: 2.5vw;
@@ -417,20 +415,6 @@ footer form .input {
   margin-top: 0.6vw;
 }
 footer form button {
-  /*
-  font-size: 1.3vw;
-  margin-top: 2vw;
-  font-weight: 600;
-  color: crimson;
-  background-color: whitesmoke;
-  padding: 1.2vw;
-  border-radius: 0.7vw;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  text-decoration: none;*/
   background-color: blanchedalmond;
   color: whitesmoke;
   cursor: pointer;
